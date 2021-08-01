@@ -4787,6 +4787,11 @@ code-point-at@^1.0.0:
   resolved "https://registry.npm.taobao.org/code-point-at/download/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
+coingecko-api@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.nlark.com/coingecko-api/download/coingecko-api-1.0.10.tgz#ac8694d5999f00727fe55f0078ce2917603076b2"
+  integrity sha1-rIaU1ZmfAHJ/5V8AeM4pF2AwdrI=
+
 collapse-white-space@^1.0.2:
   version "1.0.6"
   resolved "https://registry.npm.taobao.org/collapse-white-space/download/collapse-white-space-1.0.6.tgz?cache=0&sync_timestamp=1615196586817&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcollapse-white-space%2Fdownload%2Fcollapse-white-space-1.0.6.tgz#e63629c0016665792060dbbeb79c42239d2c5287"
