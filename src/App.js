@@ -130,14 +130,10 @@ const CryptoCoinPriceRecordItem = memo((coinData) => {
 })
 
 const MainPage = ({ cryptoData }) => {
-  const [filter, setFilter] = useState('')
   return (
     <>
       <div>
-        <FilterInput onChange={(e) => {
-          setFilter(e.target.value)
-        }}
-        />
+        <FilterInput />
       </div>
       <div>
         {
