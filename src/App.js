@@ -28,7 +28,7 @@ const RecordWrapper = styled.div`
   border-radius: 0.2em;
   margin: 0 0.5em;
 
-  transition: all 1s;
+  transition: all 0.3s;
 `
 
 const RecordIcon = styled.img`
@@ -140,7 +140,12 @@ const MainPage = ({ cryptoData }) => {
 function App () {
   const [cryptoData, setCryptoData] = useState(undefined)
   useEffect(() => {
-    fetch('https://api.nomics.com/v1/currencies/ticker?key=5582925c69cc16b163f51399df72b98bd7423284&interval=1d,30d&convert=EUR&per-page=100&page=1')
+    fetch(
+      'https://api.nomics.com/v1/currencies/ticker?key=5582925c69cc16b163f51399df72b98bd7423284&interval=1d,30d&convert=EUR&per-page=100&page=1',
+      {
+        mode: 'cors'
+      }
+    )
       .then(response => response.json())
       .then(setCryptoData)
   }, [])
